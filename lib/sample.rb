@@ -20,3 +20,11 @@ p sum
 # Range
 p numbers[1..3]
 p numbers[1...3]
+
+# 最後の要素
+p numbers[-1]
+
+# each_with_index
+numbers.each_with_index do |n, i|
+  puts "numbers[#{i}] = #{n}"
+end
